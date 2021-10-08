@@ -26,7 +26,7 @@ else {
 
         // sconto per minorenni -20% e anziani -40%
 
-        if (anniUtente <= 18) {
+        if (anniUtente < 18) {
             prezzoBiglietto = (prezzoBiglietto - ((prezzoBiglietto * 20) / 100));
         }
 
